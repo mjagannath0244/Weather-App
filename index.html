@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="wrapper ">
+        <header><i class="fa-solid fa-arrow-left-long"></i></i>Weather App</header>
+        <!-- section-1 -->
+        <section class="input-part">
+            <p class="info-txt "></p>
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <div class="separator"></div>
+            <button class="">Get Device Location</button>
+        </section>
+
+        <!-- section-2 -->
+
+        <section class="weather-part ">
+            <img src="./Weather Icons/cloud.svg" alt="">
+            <!-- innerdiv-1 -->
+            <div class="temp">
+                <span class="num"></span>
+                <span class="deg">°</span>C
+            </div>
+            <!-- innerdiv-2 -->
+            <div class="weather">_ _</div>
+            <!-- innerdiv-3 -->
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>_,_</span>
+            </div>
+            <!-- inner-div-4 -->
+            <div class="bottom-details">
+                <!-- sub-div-1 -->
+                <div class="column feels">
+                    <i class="fa-solid fa-temperature-empty"></i>
+                    <div class="details">
+                        <div class="temp">
+                            <span class="numb-2">_</span>
+                            <span class="deg">°</span>c
+
+                        </div>
+                        <P>Feels Like</P>
+                    </div>
+                </div>
+
+                <!-- subdiv-2 -->
+                <div class="column humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="details">
+                        <span></span>
+                        <P>Humidity</P>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
